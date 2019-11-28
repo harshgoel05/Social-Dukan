@@ -212,8 +212,8 @@
     $('.testimonial-active-3').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
-        autoplayTimeout: 5000,
+        autoplay: true,
+        autoplayTimeout: 2500,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
@@ -368,8 +368,8 @@
     $('.brand-logo-active').owlCarousel({
         loop: true,
         nav: false,
-        autoplay: false,
-        autoplayTimeout: 5000,
+        autoplay: true,
+        autoplayTimeout: 800,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
         item: 6,

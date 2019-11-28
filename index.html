@@ -80,13 +80,7 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="images/first.webp" alt="First slide">
-                    <div class="carousel-caption">
-                        <a href="#target">
-                            <button type="button" class="btn btn-primary btn-lg" style="
-                            border-radius: 5px;">View Offers</button>
-                        </a>
-                    </div>                      
+                <img class="d-block w-100" src="images/first.webp" alt="First slide">                  
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="images/second.webp" alt="Second slide"> 
@@ -354,6 +348,30 @@
                                         <span>Customer</span>
                                     </div>
                             </div>
+                            <div class="sin-testimonial3">
+                                <div class="client3-content">
+                                    <p>“Vestibulum ante ipsum prim aucibus orci luctustrices 
+                                        posuere cubilia Curae Suspen disse viverra ed viverra. Mauris ullamcorper euismod vehicula nunc purus.”
+                                    </p>
+                                </div>
+                                <div class="client4-info">
+                                    <img alt="" src="images/client-4.png">
+                                    <h5>Anet Gretyuios</h5>
+                                    <span>Customer</span>
+                                </div>
+                        </div>
+                        <div class="sin-testimonial3">
+                            <div class="client3-content">
+                                <p>“Vestibulum ante ipsum prim aucibus orci luctustrices 
+                                    posuere cubilia Curae Suspen disse viverra ed viverra. Mauris ullamcorper euismod vehicula nunc purus.”
+                                </p>
+                            </div>
+                            <div class="client4-info">
+                                <img alt="" src="images/client-4.png">
+                                <h5>Anet Gretyuios</h5>
+                                <span>Customer</span>
+                            </div>
+                    </div>
                         </div>
                     </div>
                 </div>
@@ -434,6 +452,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6"></div>
                                 <div class="col-lg-3 col-md-6 col-sm-6">
                                     <div class="footer-widget mb-40">
                                         <div class="footer-title mb-20">
@@ -452,7 +471,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                <!-- <div class="col-lg-3 col-md-6 col-sm-6">
                                         <div class="footer-widget mb-40">
                                             <div class="footer-title mb-20">
                                                 <h4>About Us</h4>
@@ -466,7 +485,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="footer-bottom pt-25">
@@ -522,5 +541,17 @@
                     $('img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]').css("display","none");
                     });   
                   </script>
+        <script>
+$(document).ready(function(){
+    var owl = $(".owl-carousel");
+    owl.owlCarousel({
+        items: 1,
+        autoplay: true,
+        autoPlaySpeed: 5000,
+        autoPlayTimeout: 5000,
+        autoplayHoverPause: true
+    });
+});
+        </script>
     </body>
 </html>
