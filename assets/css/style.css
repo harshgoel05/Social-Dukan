@@ -12450,7 +12450,7 @@ blockquote.blockquote-style2 {
 
 .skill-bar-item:nth-child(1) .progress-bar,
 .skill-bar-item-2:nth-child(1) .progress-bar {
-    width: 66%;
+    width: 90%;
 }
 
 .skill-bar-item:nth-child(2) .progress-bar,
@@ -12460,7 +12460,7 @@ blockquote.blockquote-style2 {
 
 .skill-bar-item:nth-child(3) .progress-bar,
 .skill-bar-item-2:nth-child(3) .progress-bar {
-    width: 80%;
+    width: 95%;
 }
 
 .progress-content > h4 {
@@ -12813,8 +12813,13 @@ span.progress-digit {
     font-size: 34px;
 }
 }
-
-
+.client-img{
+    width:70px !important;
+}
+.single-brand-logo img{
+    width: 100px !important;
+    padding-bottom: 20px;
+}
 
 
 
