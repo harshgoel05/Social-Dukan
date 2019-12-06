@@ -4111,11 +4111,11 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .contact-info-area > h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   .tools-content > h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
