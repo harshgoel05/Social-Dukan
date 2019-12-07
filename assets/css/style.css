@@ -12823,17 +12823,13 @@ span.progress-digit {
     width: 100px !important;
     padding-bottom: 20px;
 }
-header{
-    box-shadow: 10px #00A2E9 !important;
-}
 .logo{
     margin: auto;
     margin-left: 0;
 }
-
-
-
-
-
+.main-menu{
+    margin: auto;
+    margin-right: 0px;
+}
 
 
