@@ -7345,7 +7345,9 @@ a.video-btn:hover {
 }
 
 .pricing-top > h2.active {
-    color: #4b8bf6;
+    background-color: #4b8bf6;
+    padding: 20px;
+    color: black;
 }
 
 .pricing-top > span {
