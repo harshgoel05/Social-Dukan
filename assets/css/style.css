@@ -2348,7 +2348,7 @@ html [type=button] {
 	text-transform: capitalize;
 }
 .slicknav_nav {
-	height: 215px;
+	height: 172px;
     overflow-y: auto;
     background-color: #f8f8f8;
 }
@@ -7467,17 +7467,18 @@ a.video-btn:hover {
 .breadcrumb-content {
     position: relative;
     z-index: 9;
+    color: black !;
 }
 
 .breadcrumb-content > h2 {
-    color: #fff;
+    color:black;
     font-size: 44px;
     font-weight: 500;
     margin: 0 0 10px;
 }
 
 .breadcrumb-content li {
-    color: #fff;
+    color: black;
     display: inline-block;
     font-size: 16px;
     font-weight: 300;
@@ -7486,7 +7487,7 @@ a.video-btn:hover {
 }
 
 .breadcrumb-content li a {
-    color: #fff;
+    color: black;
     font-weight: 400;
 }
 
@@ -12652,7 +12653,9 @@ span.progress-digit {
 .about-us-wrap {
     position: relative;
 }
-
+.about-area{
+    padding:20px;
+}
 .about-area .tools-content > p.peragraph-blog {
     font-size: 16px;
     font-weight: 500;
