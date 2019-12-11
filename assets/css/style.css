@@ -3177,9 +3177,6 @@ html [type="button"] {
   animation-fill-mode: both;
 }
 
-.owl-item.active .slider-content * {
-}
-
 .owl-item.active .slider-animated-1 h1 {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s;
@@ -12636,6 +12633,8 @@ span.progress-digit {
 @media (max-width: 600px) {
   .pricing-top > h2.active {
     font-size: 30px;
+    margin: 0px 0 10px;
+    margin-left: -30px;
   }
   .product-details-content > h1,
   .product-details-content > h2,
@@ -12652,6 +12651,7 @@ span.progress-digit {
   .office-info-title h3 {
     font-size: 34px;
   }
+
 }
 .client-img {
   width: 70px !important;
@@ -12668,6 +12668,6 @@ span.progress-digit {
   margin: auto;
   margin-right: 0px;
 }
-header{
-  background: linear-gradient(#00A2E9 40%, #FFFF 30% ,#FFFF 30%);
-}
+/* header{
+  background: linear-gradient(#5D8CC4 40%, #FFFF 30% ,#FFFF 30%);
+} */
