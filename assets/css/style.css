@@ -11085,6 +11085,7 @@ blockquote.blockquote-style2 {
   font-size: 13px;
   list-style: outside none none;
   margin: 0 0 7px;
+  padding-left: 5vw;
 }
 
 .single-contact-info2 li a {
@@ -12666,4 +12667,7 @@ span.progress-digit {
 .main-menu {
   margin: auto;
   margin-right: 0px;
+}
+header{
+  background: linear-gradient(#00A2E9 10px,white,white,white,white,white,white,white,white);
 }
