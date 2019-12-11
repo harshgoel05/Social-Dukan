@@ -12669,5 +12669,5 @@ span.progress-digit {
   margin-right: 0px;
 }
 header{
-  background: linear-gradient(#00A2E9 10px,white,white,white,white,white,white,white,white);
+  background: linear-gradient(#00A2E9 40%, #FFFF 30% ,#FFFF 30%);
 }
