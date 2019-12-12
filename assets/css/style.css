@@ -12668,6 +12668,18 @@ span.progress-digit {
   margin: auto;
   margin-right: 0px;
 }
-/* header{
-  background: linear-gradient(#5D8CC4 40%, #FFFF 30% ,#FFFF 30%);
-} */
+  /* Loading GIF */
+
+  #loading {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    background-image: url("../../images/12.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
