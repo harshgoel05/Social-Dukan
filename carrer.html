@@ -1,286 +1,457 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-    
+
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Social Dukan : : Home</title>
-        <meta name="description" content="">
-        <meta name="robots" content="noindex, follow" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="images/dukan.png">
-		
-		<!-- all css here -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/icons.css">
-        <link rel="stylesheet" href="assets/css/plugins.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Social Dukan : : Home</title>
+    <meta name="description" content="">
+    <meta name="robots" content="noindex, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/dukan.png">
 
-    <body class="wrapper">
-        
-        <!-- header start -->
-        <header class="header-area sticky-bar header-padding header-black header-height-1 mobile-menu-black header-hm6 clearfix">
-            <div class="container-fluid">
-                <div class="header-wrap header-flex">
-                    <div class="logo ">
-                        <a href="index.html">
-                            <img class="logo-normally-none" alt="" src="images/resizedImage (1).png">
-                            <img class="logo-sticky-none" alt="" src="images/resizedImage (1).png">
-                        </a>
-                    </div>
-                    <div class="main-menu">
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">home</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="carrer.html">Work With Us</a></li>
-                                <li><a href="contactus.html">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+    <!-- all css here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            float: right;
+            text-align: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body class="wrapper">
+
+    <!-- header start -->
+    <header
+        class="header-area sticky-bar header-padding header-black header-height-1 mobile-menu-black header-hm6 clearfix">
+        <div class="container-fluid">
+            <div class="header-wrap header-flex">
+                <div class="logo ">
+                    <a href="index.html">
+                        <img class="logo-normally-none" alt="" src="images/resizedImage (1).png">
+                        <img class="logo-sticky-none" alt="" src="images/resizedImage (1).png">
+                    </a>
                 </div>
-                <div class="mobile-menu-area">
-                    <div class="mobile-menu">
-                        <nav id="mobile-menu-active">
-                            <ul class="menu-overflow">                        
-                                <li><a href="index.html">home</a></li>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="carrer.html">Work With Us</a></li>
-                                <li><a href="contactus.html">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
+                <div class="main-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="carrer.html">Work With Us</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </header>
-
-        <!-- breadcrumb area -->
-        <div class="breadcrumb-area bg-img pt-230 pb-152" style="background-image: url(images/section1_bg.png);">
-            <div class="container">
-                <div class="breadcrumb-content breadcrumb-black2 text-center">
-                    <h2>Work With Us</h2>
+            <div class="mobile-menu-area">
+                <div class="mobile-menu">
+                    <nav id="mobile-menu-active">
+                        <ul class="menu-overflow">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="carrer.html">Work With Us</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
+    </header>
 
-        <!-- main-search start -->
-        <div class="main-search-active">
-            <div class="sidebar-search-icon">
-                <button class="search-close"><span class="ti-close"></span></button>
-            </div>
-            <div class="sidebar-search-input">
-                <form>
-                    <div class="form-search">
-                        <input id="search" class="input-text" value="" placeholder="Search Entire Store" type="search">
-                        <button>
-                            <i class="ti-search"></i>
-                        </button>
-                    </div>
-                </form>
+    <!-- breadcrumb area -->
+    <div class="breadcrumb-area bg-img pt-230 pb-152" style="background-image: url(images/section1_bg.png);">
+        <div class="container">
+            <div class="breadcrumb-content breadcrumb-black2 text-center">
+                <h2>Work With Us</h2>
             </div>
         </div>
+    </div>
 
-        <!--Main content-->
-        <div class="faq-area pt-113 pb-105">
-            <div class="container">
-                <div class="shotcode-faq-title mb-55">
-                    <h2>CAREER @ SOCIALDUKAN</h2>
-                    <p>Choose the Career That Fits You Perfectly</p>
+    <!-- main-search start -->
+    <div class="main-search-active">
+        <div class="sidebar-search-icon">
+            <button class="search-close"><span class="ti-close"></span></button>
+        </div>
+        <div class="sidebar-search-input">
+            <form>
+                <div class="form-search">
+                    <input id="search" class="input-text" value="" placeholder="Search Entire Store" type="search">
+                    <button>
+                        <i class="ti-search"></i>
+                    </button>
                 </div>
+            </form>
+        </div>
+    </div>
+
+    <!--Main content-->
+    <div class="faq-area pt-113 pb-105">
+        <div class="container">
+            <div class="shotcode-faq-title mb-55">
+                <h2>CAREER @ SOCIALDUKAN</h2>
+                <p>Choose the Career That Fits You Perfectly</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="faq-accordion-wrap pr-45">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel faq-accordion2 mb-15">
+                                <div class="panel-heading" id="faq-one">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#faq1">
+                                            Internship at 1mg.com
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="faq1" class="panel-collapse collapse show">
+                                    <div class="panel-body">
+                                        1mg is India's best online pharmacy with a wide range of Prescription and OTC
+                                        medicines. It provides you with medical
+                                        information which is curated, written and verified by experts, accurate and
+                                        trustworthy. Our experts create high-quality
+                                        content about medicines, diseases, lab investigations, Over-The-Counter (OTC)
+                                        health products, Ayurvedic
+                                        herbs/ingredients, and alternative remedies.<br><br>
+                                        <ul style="padding-left: 30px;">
+                                            <li><b>Location:</b> PAN India</li>
+                                            <li><b>Stipend:</b> 10% of the delivered order value for 1mg</li>
+                                            <li><b>Start Date:</b> 16th Mar 2020</li>
+                                            <li><b>Duration:</b> 4-8 Weeks</li>
+                                            <li><b>Industry:</b> Pharmaceuticals, Ecommerce, Healthcare</li>
+                                            <li><b>Function:</b> Lead Generation, Sales, Marketing</li>
+                                            <li><b>Rewards:</b> Certificate of excellence with Logo</li>
+                                        </ul>
+                                        <br>
+                                        Selected intern's day-to-day responsibilities include:<br>
+
+                                        <ol>
+                                            <li>Look for new users to place the orders via unique coupon codes.</li>
+                                            <li>Get fellow college-mates to use 1mg platform to buy their medicines.
+                                            </li>
+                                            <li>Support will be provided with respect to product knowledge, promotional
+                                                content
+                                                such as posters, etc.</li>
+                                        </ol>
+                                        <b>Selected interns will be provided with unique coupons codes that they
+                                            will be
+                                            using to get orders placed.<br><br>New users will
+                                            get 20% discount with this code and existing customers shall get 20 + 5
+                                            % discount.</b>
+                                        <br><br>
+                                        <a id="open1modal"
+                                            style="  color: white;width: 100%; background-color: #0579bf; outline: none; border: none; box-shadow: none;"
+                                            class="btn btn-success">Apply Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="panel faq-accordion2 mb-15">
+                                <div class="panel-heading" id="faq-two">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq2">
+                                            Demand Manager
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="faq2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <h5><i> No. of Vacancies: 10 </i></h5>
+                                        <h5><i> Work Status: Part time </i></h5>
+                                        <h5><i> Experience: 1-4 Years </i></h5>
+                                        <h5><i> Location: PAN Inida </i></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel faq-accordion2 mb-15">
+                                <div class="panel-heading" id="faq-three">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion"
+                                            href="#faq3">
+                                            Sales Executive
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="faq3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <h5><i> No. of Vacancies: 10 </i></h5>
+                                        <h5><i> Work Status: Part time </i></h5>
+                                        <h5><i> Experience: 1-4 Years </i></h5>
+                                        <h5><i> Location: PAN India </i></h5>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- The Modal -->
+                    <div id="1modal" class="modal intern-modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h4 class="text-center">Apply for 1mg internship</h4>
+                            <form id="contact-form">
+                                <input name="name" id="name" type="text" placeholder="Name" required />
+                                <input name="email" id="email" type="text" placeholder="Email" required />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input name="ContactNum" id="ContactNum" type="text"
+                                            placeholder="Contact Number" required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input name="WhatsappNum" id="WhatsappNum" type="text"
+                                            placeholder="Whatsapp Number" required />
+                                    </div>
+                                </div>
+                                <input id="City" name="City" type="text" placeholder="College Name" required />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input id="Department" name="Department" type="text" placeholder="Department"
+                                            required />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input name="College" id="College" type="text" placeholder="City" required />
+                                    </div>
+                                </div>
+                                <a type="button" onclick="sumbit()" class="btn btn-primary">Sumbit</a>
+                            </form>
+                        </div>
+
+                    </div>
+                    <p style="color:#0579bf;"><b>Note: If you didn't find a vacancy suitable to you, kindly send your CV
+                            to <a href="mailto:socialdukan@gmail.com" target="_top">
+                                socialdukan@gmail.com</a> for future reference.</b></p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="faq-sidebar-area">
+                        <div class="single-faq-sidebar">
+                            <h4>The Right Approach</h4>
+                            <p>The right way to approach any client is must for any job position in any company.</p>
+                        </div>
+                        <div class="single-faq-sidebar">
+                            <h4>Incessant Growth</h4>
+                            <p>Every member in the company should look for the incessant growth of the company.</p>
+                        </div>
+                        <div class="single-faq-sidebar">
+                            <h4>Rich Work Culture</h4>
+                            <p>Social Dukan has rich work culture i.e. cooperative team members, interesting work,
+                                regular travel and a lot more!</p>
+                        </div>
+                        <div class="single-faq-sidebar">
+                            <h4>Perks</h4>
+                            <p>Exciting stipend, a lot of goodies, merchandise, travel reimbursement and a lot more to
+                                learn and grow!!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Starts Here-->
+    <footer class="footer-area theme-bg pt-70 pb-50">
+        <div class="container">
+            <div class="footer-middle pt-65">
                 <div class="row">
-                    <div class="col-lg-9">
-                        <div class="faq-accordion-wrap pr-45">
-                            <div class="panel-group" id="accordion">
-                                <div class="panel faq-accordion2 mb-15">
-                                    <div class="panel-heading" id="faq-one">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#faq1">
-                                                Campus Ambassador
-                                            </a>
-                                        </h4>
+                    <div class="col-lg-3 col-md-6 col-sm-5">
+                        <div class="footer-widget mb-40">
+                            <div class="footer-title mb-20">
+                                <h4>contact Us</h4>
+                            </div>
+                            <div class="footer-cont-info">
+                                <div class="single-footer-cont-info">
+                                    <div class="cont-info-icon">
+                                        <i class="ti-email"></i>
                                     </div>
-                                    <div id="faq1" class="panel-collapse collapse show">
-                                        <div class="panel-body">
-                                            <h5><i> No. of Vacancies: 500
-                                                </i></h5>
-                                            <h5><i> Work Status: Part time </i></h5>
-                                            <h5><i> Experience: Fresher - 2 Years </i></h5>
-                                            <h5><i> Location: PAN India </i></h5>
-                                        </div>
+                                    <div class="cont-info-content">
+                                        <a href="mailto:socialdukan@gmail.com"
+                                            style="color:white;">socialdukan@gmail.com
+                                        </a>
+
                                     </div>
                                 </div>
-                                <div class="panel faq-accordion2 mb-15">
-                                    <div class="panel-heading" id="faq-two">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq2">
-                                                Demand Manager
-                                            </a>
-                                        </h4>
+                                <div class="single-footer-cont-info">
+                                    <div class="cont-info-icon">
+                                        <i class="ti-mobile"></i>
                                     </div>
-                                    <div id="faq2" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <h5><i> No. of Vacancies: 10 </i></h5>
-                                            <h5><i> Work Status: Part time </i></h5>
-                                            <h5><i> Experience: 1-4 Years </i></h5>
-                                            <h5><i> Location: PAN Inida </i></h5>
-                                        </div>
+                                    <div class="cont-info-content">
+                                        <p>8727084770</p>
                                     </div>
                                 </div>
-                                <div class="panel faq-accordion2 mb-15">
-                                    <div class="panel-heading" id="faq-three">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#faq3">
-                                                Sales Executive
-                                            </a>
-                                        </h4>
+                                <div class="single-footer-cont-info">
+                                    <div class="cont-info-icon">
+                                        <i class="ti-location-pin"></i>
                                     </div>
-                                    <div id="faq3" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <h5><i> No. of Vacancies: 10 </i></h5>
-                                            <h5><i> Work Status: Part time </i></h5>
-                                            <h5><i> Experience: 1-4 Years </i></h5>
-                                            <h5><i> Location: PAN India </i></h5>
-                                        </div>        
+                                    <div class="cont-info-content">
+                                        <p>Behind HDFC Bank, Zirakpur<br> Paitala Highway, Banur, Punjab<br>140601</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <p style="color:#0579bf;"><b>Note: If you didn't find a vacancy suitable to you, kindly send your CV to <a href="mailto:socialdukan@gmail.com" target="_top">
-                            socialdukan@gmail.com</a> for future reference.</b></p>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="faq-sidebar-area">
-                            <div class="single-faq-sidebar">
-                                <h4>The Right Approach</h4>
-                                <p>The right way to approach any client is must for any job position in any company.</p>
+                    <div class="col-lg-3 col-md-6 col-sm-6"></div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer-widget mb-40">
+                            <div class="footer-title mb-20">
+                                <h4>Quick Links</h4>
                             </div>
-                            <div class="single-faq-sidebar">
-                                <h4>Incessant Growth</h4>
-                                <p>Every member in the company should look for the incessant growth of the company.</p>
+                            <div class="twitter-info">
+                                <div class="single-twitter-info">
+                                    <div class="twitter-content">
+                                        <p><a href="index.html">Home</a></p>
+                                        <p><a href="about-us.html">About Us</a></p>
+                                        <p><a href="carrer.html">Careers</a></p>
+                                        <p><a href="https://forms.gle/JHNkukDoh62Dpj657">Sponsorship Form</a></p>
+                                        <p><a href="contactus.html">Contact us</a></p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="single-faq-sidebar">
-                                <h4>Rich Work Culture</h4>
-                                <p>Social Dukan has rich work culture i.e. cooperative team members, interesting work, regular travel and a lot more!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom pt-25">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copyright text-center">
+
+                            <div class="shortcode-social-content2 text-center">
+                                <div class="single-social-content1 social-round mb-25">
+                                    <ul>
+                                        <li><a href="https://m.facebook.com/socialdukanofficial/"><img
+                                                    src="images/facebook.png"></a></li>
+                                        <li><a href="https://www.linkedin.com/company/socialspoon"><img
+                                                    src="images/linkedin.png"></a></li>
+                                        <li><a href="https://instagram.com/socialdukan?igshid=1ctnebsouduwo"><img
+                                                    src="images/instagram.png"></a></li>
+                                        <li><a href="https://wa.me/918727084770"><img src="images/whatsapp.png"></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="single-faq-sidebar">
-                                <h4>Perks</h4>
-                                <p>Exciting stipend, a lot of goodies, merchandise, travel reimbursement and a lot more to learn and grow!!</p>
-                            </div>
+                            <p>
+                                &copy;
+                                <span id="copyright">
+                                    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                                </span>
+                                <a href="index.html">Social Dukan</a> All Right Reserved.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Footer Starts Here-->
-        <footer class="footer-area theme-bg pt-70 pb-50">
-            <div class="container">
-                <div class="footer-middle pt-65">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-5">
-                            <div class="footer-widget mb-40">
-                                <div class="footer-title mb-20">
-                                    <h4>contact Us</h4>
-                                </div>
-                                <div class="footer-cont-info">
-                                    <div class="single-footer-cont-info">
-                                        <div class="cont-info-icon">
-                                            <i class="ti-email"></i>
-                                        </div>
-                                        <div class="cont-info-content">
-                                                <a
-                                                href="mailto:socialdukan@gmail.com"
-                                                style="color:white;"
-                                                >socialdukan@gmail.com
-                                              </a>
-                                        
-                                        </div>
-                                    </div>
-                                    <div class="single-footer-cont-info">
-                                        <div class="cont-info-icon">
-                                            <i class="ti-mobile"></i>
-                                        </div>
-                                        <div class="cont-info-content">
-                                            <p>8727084770</p>
-                                        </div>
-                                    </div>
-                                    <div class="single-footer-cont-info">
-                                        <div class="cont-info-icon">
-                                            <i class="ti-location-pin"></i>
-                                        </div>
-                                        <div class="cont-info-content">
-                                            <p>Behind HDFC Bank, Zirakpur<br> Paitala Highway, Banur, Punjab<br>140601</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-sm-6"></div>
-                        <div class="col-lg-3 col-md-6 col-sm-6">
-                            <div class="footer-widget mb-40">
-                                <div class="footer-title mb-20">
-                                    <h4>Quick Links</h4>
-                                </div>
-                                <div class="twitter-info">
-                                    <div class="single-twitter-info">
-                                        <div class="twitter-content">
-                                            <p><a href="index.html">Home</a></p>
-                                            <p><a href="about-us.html">About Us</a></p>
-                                            <p><a href="carrer.html">Careers</a></p>
-                                            <p><a href="https://forms.gle/JHNkukDoh62Dpj657">Sponsorship Form</a></p>
-                                          <p><a href="contactus.html">Contact us</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom pt-25">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="copyright text-center">
-
-                                    <div class="shortcode-social-content2 text-center">
-                                            <div class="single-social-content1 social-round mb-25">
-                                                <ul>
-                                                    <li><a href="https://m.facebook.com/socialdukanofficial/"><img src="images/facebook.png"></a></li>
-                                                    <li><a href="https://www.linkedin.com/company/socialspoon"><img src="images/linkedin.png"></a></li>
-                                                    <li><a href="https://instagram.com/socialdukan?igshid=1ctnebsouduwo"><img src="images/instagram.png"></a></li>
-                                                    <li><a href="https://wa.me/918727084770"><img src="images/whatsapp.png"></a></li>                                                            
-                                                </ul>
-                                            </div>
-                                        </div>
-                                <p>
-                                    &copy;
-                                    <span id="copyright">
-                                        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-                                    </span>
-                                    <a href="index.html">Social Dukan</a> All Right Reserved.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    </footer>
 
 
-		<!-- all js here -->
-        <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
-        <script src="assets/js/popper.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/ajax-mail.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
-    <script>
-        $(document).ready(function(){   
-        $('img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]').css("display","none");
-        });   
-      </script>
+    <!-- all js here -->
+    <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/ajax-mail.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+<script>
+    function sumbit() {
+        name = document.getElementById('name').value;
+        email = document.getElementById('email').value;
+        ContactNum = document.getElementById('ContactNum').value;
+        WhatsappNum = document.getElementById('WhatsappNum').value;
+        City = document.getElementById('City').value;
+        Department = document.getElementById('Department').value;
+        College = document.getElementById('College').value;
+        if (email == "" || name == "" || ContactNum == "" || WhatsappNum == "" || City == "" || Department == "" || College == "") {
+            alert("Please fill all details!");
+        }
+        else {
+            $.ajax({
+                type: "POST",
+                url: "internshipform.php",
+                cache: false,
+                data: {
+                    Name: name,
+                    Email: email,
+                    ContactNumber: ContactNum,
+                    WhatsappNumber: WhatsappNum,
+                    CityName: City,
+                    DepartmentName: Department,
+                    CollegeName: College
+                },
+                success: function () {
+                    alert("Thanks for applying!")
+                    e.preventDefault();
+                }
+            });
+        }
+
+    }
+</script>
+<script>
+    var modal = document.getElementById("1modal");
+    var btn = document.getElementById("open1modal");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
 </html>

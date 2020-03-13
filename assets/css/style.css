@@ -7414,7 +7414,6 @@ a.video-btn:hover {
   color: #5f98f7;
 }
 
-
 .portfolio-wrap:hover .hover-2::before,
 .blog-wrap-2:hover .hover-3::before,
 .single-blog-list:hover .hover-3::before,
@@ -7445,7 +7444,7 @@ a.video-btn:hover {
   width: 100%;
   transition: 0.5s ease;
 }
-.portfolio-img:hover{
+.portfolio-img:hover {
   transform: scale(1.07);
   transition: 0.5s ease;
 }
@@ -12651,7 +12650,6 @@ span.progress-digit {
   .office-info-title h3 {
     font-size: 34px;
   }
-
 }
 .client-img {
   width: 70px !important;
@@ -12668,18 +12666,37 @@ span.progress-digit {
   margin: auto;
   margin-right: 0px;
 }
-  /* Loading GIF */
+/* Loading GIF */
 
-  #loading {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100vw;
-    height: 100vh;
-    background-color: #000;
-    background-image: url("../../images/12.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+#loading {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  background-image: url("../../images/12.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intern-modal h4 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.intern-modal input {
+  margin-bottom: 15px;
+}
+.intern-modal a {
+  width: 100%;
+  background-color: #0579bf;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  color: white !important;
+  height: 30px;
+  margin-top: 10px;
+}
